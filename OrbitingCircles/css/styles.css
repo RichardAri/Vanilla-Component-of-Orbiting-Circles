@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.orbit {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.large-orbit, .small-orbit {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px dashed #ccc;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.large-orbit {
+    width: 410px;
+    height: 410px;
+}
+
+.small-orbit {
+    width: 200px;
+    height: 200px;
+}
+
+.icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    transform: translate(-50%, -50%);
+}
